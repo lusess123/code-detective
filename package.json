@@ -1,0 +1,24 @@
+{
+  "name": "code-detective",
+  "version": "1.0.0",
+  "description": "通过代码的蛛丝马迹，剖析程序本质",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "akwp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lusess123/code-detective.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lusess123/code-detective/issues"
+  },
+  "homepage": "https://github.com/lusess123/code-detective#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "ak-webpack": "^1.0.12"
+  }
+}
