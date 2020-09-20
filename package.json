@@ -11,6 +11,7 @@
     "release": "npm run build && npm publish",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "test": "umi-test",
+    "watch": "akwp",
     "test:coverage": "umi-test --coverage"
   },
   "main": "dist/index.js",
@@ -28,12 +29,22 @@
     ]
   },
   "dependencies": {
-    "react": "^16.12.0"
+    "he": "^1.2.0",
+    "mobx": "^5.15.6",
+    "mobx-keystone": "^0.46.0",
+    "mobx-react-lite": "^2.2.1",
+    "mobx-state-tree": "^3.17.2",
+    "react": "^16.12.0",
+    "vue-template-compiler": "^2.6.12",
+    "web-pdm": "^0.2.5-12"
   },
   "devDependencies": {
+    "@types/he": "^1.1.1",
+    "@umijs/plugin-sass": "^1.1.1",
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.0.5",
-    "dumi": "^1.0.9",
+    "ak-webpack": "^1.0.15",
+    "dumi": "^1.0.34",
     "father-build": "^1.17.2",
     "gh-pages": "^3.0.0",
     "lint-staged": "^10.0.7",
