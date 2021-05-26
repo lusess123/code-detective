@@ -12,7 +12,8 @@
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "test": "umi-test",
     "watch": "akwp",
-    "test:coverage": "umi-test --coverage"
+    "test:coverage": "umi-test --coverage",
+    "test:demo": "yarn jest src/testtest/demo.spec.ts"
   },
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -40,6 +41,7 @@
   },
   "devDependencies": {
     "@types/he": "^1.1.1",
+    "@types/jest": "^26.0.23",
     "@umijs/plugin-sass": "^1.1.1",
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.0.5",
@@ -47,8 +49,11 @@
     "dumi": "^1.0.34",
     "father-build": "^1.17.2",
     "gh-pages": "^3.0.0",
+    "jest": "^27.0.1",
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
+    "ts-jest": "^27.0.0",
+    "typescript": "^4.2.4",
     "yorkie": "^2.0.0"
   }
 }
